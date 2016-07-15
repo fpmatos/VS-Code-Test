@@ -1,0 +1,14 @@
+{
+  "name": "Teste",
+  "description": "fkjjdf",
+  "main": "app.js",
+  "authors": [
+    "Fernandi"
+  ],
+  "license": "kfdsf",
+  "homepage": "fsdf",
+  "private": true,
+  "dependencies": {
+    "angular": "^1.5.7"
+  }
+}

@@ -1,0 +1,33 @@
+<html ng-app="fpmcore">
+  <head>
+    <title>Node.js</title>
+    
+    <!-- build:vendorCss(.) styles/vendor.css -->    
+    <!-- bower:css -->    
+    <!-- endinject -->    
+    <!-- endbuild -->
+
+    <!-- build:css(build) styles/app.css -->
+    <!-- inject:css -->
+    <!--endinject -->
+    <!-- endbuild -->
+  </head>
+  <body ng-controller="MainController">
+    <h1>Hello World!</h1>
+    From a Node.js web application.
+
+    <!-- build:vendorJs(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    
+    <script src="bower_components/angular/angular.js"></script>
+    
+    <!-- endinject -->
+    <!-- endbuild -->
+
+    <!-- build:app(build) scripts/app.js -->
+    <!-- inject:js -->    
+    <script src="src/app.js"></script>    
+    <!--endinject -->
+    <!-- endbuild -->
+  </body>
+</html>
